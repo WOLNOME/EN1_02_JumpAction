@@ -18,6 +18,7 @@ public class ItemScript : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        //他のオブジェクトに接触した際非表示にする処理
         gameObject.SetActive(false);
     }
 
